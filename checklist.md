@@ -35,6 +35,7 @@ Change device’s settings then load the app. Check that dates appear correctly,
 | Locale | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | 12 and 24 hour clocks | | | |
+| Test one non English Locale | | | |
 
 --
 
