@@ -23,11 +23,9 @@ Test all the data downloading sections of the app by trying them on the appropri
 |:---|:---:|:---:|:---:|
 | Wifi | | | |
 | Edge | | | |
-| GPRS | | | |
 | No Network | | | |
 | Break in Network - use Charles | | | |
 | Server unreachable - timeout | | | |
-| Resumed connect - streaming only | | | |
 
 --
 
@@ -37,10 +35,6 @@ Change device’s settings then load the app. Check that dates appear correctly,
 | Locale | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | 12 and 24 hour clocks | | | |
-| Regions: **fork and add regions for you** | | | |
-| Languages: **fork and add languages for you** | | | |
-| Timezones  | | | |
-| Daylight Savings Time | | | |
 
 --
 
@@ -49,39 +43,10 @@ Run the application through navigations using different devices with different i
 
 | Device | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
-| iPhone / iPod touch running iOS 5.0 | | | |
-| iPhone / iPod touch running iOS 5.1.1 | | | |
-| iPhone / iPod touch running iOS 6.0 | | | |
-| iPhone / iPod touch running iOS 6.1.3 | | | |
-| iPhone / iPod touch running iOS 7.0 | | | |
-| Retina iPhone display | | | |
-| Non-retina iPhone display | | | |
-| iPad 1 running iOS 5.0 | | | |
-| iPad 1 running iOS 5.0 | | | |
-| iPhone / iPod touch running iOS 5.1.1 | | | |
-| iPad running iOS 6.0 | | | |
-| iPad running iOS 6.1.3 | | | |
-| iPad running iOS 7.0 | | | |
-| Retina iPad display | | | |
-| Non-retina iPad display | | | |
-| iPad mini display | | | |
-
---
-
-### Audio
-If app plays audio, perform the following checks. For streaming audio, make sure the checks in the network section above have also been done.
-
-| Audio | N/A | NO | YES |
-|:---|:---:|:---:|:---:|
-| Headphones/speaker routing  | | | |
-| Dock connector audio out routing   | | | |
-| iPod touch audio routing (consider model without speaker) | | | |
-| Mute switch functionality (officially it mutes non-user-requested sounds) | | | |
-| Audio pause on received phone call | | | |
-| Background audio (if supported): playback and multitasking bar controls | | | |
-| Start playing audio when another app is already playing | | | |
-| Headphone remote for audio control | | | |
-| Multitasking screen audio control | | | |
+| iPhone / iPod touch running iOS 8.4.1 | | | |
+| iPhone / iPod touch running iOS 9.1 | | | | |
+| iPad running iOS 8.4.1 | | | |
+| iPad running iOS 9.1 | | | |
 
 --
 
@@ -94,7 +59,6 @@ Streaming video should have been checked in the network tests.
 | User cancels video during playback  | | | |
 | Video plays to the end  | | | |
 | Video return from full screen  | | | |
-| Dock connector video out  | | | |
 | Video transition between inline and full screen  | | | |
 
 --
@@ -113,19 +77,6 @@ Streaming video should have been checked in the network tests.
 
 --
 
-###Camera / Video
-If app takes pictures or video clips, perform the following checks. For streaming video, make sure the checks in the network section above have also been done.
-
-| Camera / Video | N/A | NO | YES |
-|:---|:---:|:---:|:---:|
-| Primary camera photo taken | | | |
-| Primary camera video captured | | | |
-| Secondary (user facing) camera taken | | | |
-| Secondary (user facing) video captured | | | |
-| Video recording paused on received phone call | | | |
-
---
-
 ###Logging
 
 | Logging | N/A | NO | YES |
@@ -141,7 +92,7 @@ Test each major view in the app.
 | Title | N/A | NO | YES |
 |:---|:---:|:---:|:---:|
 | Double height status bar (eg in call) | | | |
-| Orientation change | | | |
+| Orientation changes | | | |
 | Upside-down orientation | | | |
 | Orientation lock | | | |
 | VoiceOver turned on | | | |
